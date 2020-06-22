@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="236" viewBox="0 0 985 236">
+  <g id="Group_3" data-name="Group 3" transform="translate(-193 -278)">
+    <g id="Group_2" data-name="Group 2" transform="translate(-164)">
+      <text id="TIKETKU" transform="translate(720 423)" fill="#fff" font-size="138" font-family="Poppins-Black, Poppins" font-weight="800" letter-spacing="0.028em"><tspan x="0" y="0">TIKETKU</tspan></text>
+      <text id="TICKETING_SERVICES" data-name="TICKETING SERVICES" transform="translate(748 494)" fill="#fff" font-size="57" font-family="Poppins-Medium, Poppins" font-weight="500" letter-spacing="0.028em"><tspan x="0" y="0">TICKETING SERVICES</tspan></text>
+    </g>
+    <path id="Subtraction_2" data-name="Subtraction 2" d="M322,185H21A21,21,0,0,1,0,164V136c.139,0,.293,0,.5,0a43.5,43.5,0,1,0,0-87L0,49V21A21,21,0,0,1,21,0H322a21,21,0,0,1,21,21V49A43.5,43.5,0,0,0,343,136v28a21,21,0,0,1-21,21ZM177.687,61.4V96.117a31.01,31.01,0,0,0,3.393,15.051,22.4,22.4,0,0,0,9.439,9.309,29.875,29.875,0,0,0,13.876,3.132,31.769,31.769,0,0,0,14.181-3.132,23.505,23.505,0,0,0,10.005-9.352,29.274,29.274,0,0,0,3.654-15.007V61.4H213.008V96.117a10.481,10.481,0,0,1-2,6.742c-1.327,1.645-3.405,2.479-6.177,2.479s-4.806-.834-6.047-2.479a11,11,0,0,1-1.87-6.742V61.4ZM131.664,96.291l0,0L149.585,123h23.229L150.021,91.332,172.814,61.4H149.76l-18.1,26.013V61.4H112.35V123h19.314V96.291Z" transform="translate(193 320)" fill="#fff"/>
+  </g>
+</svg>
