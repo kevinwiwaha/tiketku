@@ -1,46 +1,17 @@
 body {
   background-color: #0C0C0C;
   color: white;
+  font-family: 'Poppins';
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+.btn-kudewe {
+  background-color: #F67606;
+  color: white;
 }
 
-.btn-primary:hover {
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
-}
-
-.btn-primary:focus,
-.btn-primary.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
-}
-
-.btn-primary.disabled,
-.btn-primary:disabled {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
-}
-
-.btn-primary:not(:disabled):not(.disabled):active,
-.btn-primary:not(:disabled):not(.disabled).active,
-.show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #0062cc;
-  border-color: #005cbf;
-}
-
-.btn-primary:not(:disabled):not(.disabled):active:focus,
-.btn-primary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+.btn-kudewe:hover {
+  background-color: #e96d00;
+  color: white;
 }
 
 .navbar-item {
@@ -64,29 +35,31 @@ body {
 
 .teks h2 {
   color: #5CC3CB;
-  font-size: 31px;
+  font-size: 29px;
+  font-weight: 600;
 }
 
 .teks h2:after {
   content: '';
   display: block;
-  margin-top: 11px;
+  margin-top: 5px;
   background-color: #E8641C;
   width: 75%;
-  height: 4px;
+  height: 3px;
   border-radius: 10px;
 }
 
 .nav-kecil h3 {
   color: #adadad;
-  font-weight: 100;
+  font-weight: 400;
   font-size: 20px;
   margin-left: 40px;
+  margin-bottom: 30px;
 }
 
 .aktif {
   color: white !important;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
 }
 
 .event1,
@@ -104,13 +77,14 @@ body {
 .item-3,
 .item-4 {
   width: 260px;
-  height: 400px;
+  height: 430px;
 }
 
 .owl-carousel h4 {
   font-weight: 400;
-  font-size: 25px;
+  font-size: 23px;
   padding-top: 11px;
+  line-height: 26px;
 }
 
 .owl-carousel small {

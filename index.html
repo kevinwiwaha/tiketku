@@ -6,12 +6,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="vendor/owlcarousel/assets/owl.carousel.css">
     <link rel="stylesheet" href="vendor/owlcarousel/assets/owl.theme.default.css">
+
+
 
     <title>Hello, world!</title>
 </head>
@@ -42,10 +48,11 @@
 
 
     <!-- Content -->
-    <main>
+    <main style="position: relative;">
+
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-9 konten">
+                <div class="col-md-10 konten">
                     <div class="carousel-wrapper">
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
@@ -58,10 +65,10 @@
                                     <img src="img/carousel.png" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/carousel.png" class="d-block w-100" alt="...">
+                                    <img src="img/carousel3.png" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/carousel.png" class="d-block w-100" alt="...">
+                                    <img src="img/carousel2.png" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
@@ -78,10 +85,7 @@
                     </div>
                     <div class="teks d-flex justify-content-between mt-3">
                         <h2>Recomendation</h2>
-                        <div class="nav-kecil d-flex align-self-end mt-5">
-                            <h3 class="aktif">Latest</h3>
-                            <h3>Latest</h3>
-                        </div>
+
                     </div>
                     <div class="owl-carousel">
                         <div class="item-1">
@@ -91,11 +95,12 @@
                             <div class="row no-gutters">
                                 <div class="col-8">
                                     <h4>MUSIC PARTY</h4>
-                                    <small style="position:absolute;z-index:99;margin-top: -10px;">SAT, June 16th
+                                    <small style="position:absolute;z-index:99;margin-top: -10px;">SAT, June 16
                                         2020</small>
                                 </div>
                                 <div class="col-4">
-                                    <div class="btn btn-sm btn-primary cta d-block ">Book</div>
+                                    <a href="" class="btn btn-kudewe btn-sm mt-3 px-4" role="button"
+                                        aria-pressed="true">Book</a>
                                 </div>
                             </div>
                         </div>
@@ -103,12 +108,15 @@
                             <div class="event2" style="background-image: url('img/event2.png');">
 
                             </div>
-                            <div class="row">
-                                <div class="col-9">
-                                    <h4>Build your business</h4>
+                            <div class="row no-gutters">
+                                <div class="col-8">
+                                    <h4>BUILD YOUR BUSINESS</h4>
+                                    <small style="position:absolute;z-index:99;margin-top: -10px;">SUN, June 17
+                                        2020</small>
                                 </div>
-                                <div class="col-3">
-                                    <div class="btn btn-sm btn-primary cta">Book</div>
+                                <div class="col-4">
+                                    <a href="" class="btn btn-kudewe btn-sm mt-3 px-4" role="button"
+                                        aria-pressed="true">Book</a>
                                 </div>
                             </div>
                         </div>
@@ -116,12 +124,15 @@
                             <div class="event3" style="background-image: url('img/event3.png');">
 
                             </div>
-                            <div class="row">
-                                <div class="col-9">
+                            <div class="row no-gutters">
+                                <div class="col-8">
                                     <h4>California Fest Beach</h4>
+                                    <small style="position:absolute;z-index:99;margin-top: -10px;">SUN, June 17
+                                        2020</small>
                                 </div>
-                                <div class="col-3">
-                                    <div class="btn btn-sm btn-primary cta">Book</div>
+                                <div class="col-4">
+                                    <a href="" class="btn btn-kudewe btn-sm mt-3 px-4" role="button"
+                                        aria-pressed="true">Book</a>
                                 </div>
                             </div>
                         </div>
@@ -129,17 +140,38 @@
                             <div class="event4" style="background-image: url('img/event4.png');">
 
                             </div>
-                            <h4>Acoustic Night</h4>
+                            <div class="row no-gutters">
+                                <div class="col-8">
+                                    <h4>Acoustic Night</h4>
+                                    <small style="position:absolute;z-index:99;margin-top: -10px;">MON, June 18
+                                        2020</small>
+                                </div>
+                                <div class="col-4">
+                                    <a href="" class="btn btn-kudewe btn-sm mt-3 px-4" role="button"
+                                        aria-pressed="true">Book</a>
+                                </div>
+                            </div>
                         </div>
+
 
 
                     </div>
                 </div>
-                <div class="col-md-3 side-item"></div>
+                <div class="col-md-2 side-item mt-4">
+                    <div class="teks">
+                        <h2>How To Buy</h2>
+                    </div>
+                    <img src="img/howto.svg" class="mt-4" alt="">
+                    <div class="d-flex justify-content-center mt-4">
+                        <button class="btn btn-lg btn-primary" style="position: fixed;z-index: 99;">Customer
+                            Support</button>
+                    </div>
+                </div>
             </div>
         </div>
 
     </main>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-tiketku"></nav>
 
 
     <!-- Optional JavaScript -->
