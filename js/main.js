@@ -6,7 +6,7 @@ $(document).ready(function () {
         responsive: {
             0: {
                 items: 1.9,
-                margin: 50,
+                margin: 200,
                 loop: true,
                 autoplay: true
             },
@@ -22,4 +22,7 @@ $(document).ready(function () {
             }
         }
     })
+    setTimeout(function () {
+        $('.preload').fadeToggle();
+    }, 500);
 });

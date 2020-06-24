@@ -8,7 +8,8 @@
 
 
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap"
+        rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -16,6 +17,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="vendor/owlcarousel/assets/owl.carousel.css">
     <link rel="stylesheet" href="vendor/owlcarousel/assets/owl.theme.default.css">
+    <script src="https://kit.fontawesome.com/7c58429d13.js" crossorigin="anonymous"></script>
 
 
 
@@ -23,22 +25,26 @@
 </head>
 
 <body>
+    <!-- Preload -->
+    <div class="preload"></div>
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-tiketku">
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-tiketku">
 
         <div class="container-fluid d-flex justify-content-between">
             <a href="#">
                 <img src="img/tiketku.svg" width="136" height="33" alt="">
             </a>
 
-            <form class="form-inline my-2 my-lg-0 d-none d-md-block">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            <div class="search d-block mt-lg-5 mt-4">
+                <form action="">
+                    <input type="search">
+                    <i class="fa fa-search"></i>
+                </form>
+            </div>
             <div class="navbar-nav d-none d-md-block">
 
-                <a class="nav-item nav-link active " href="#">Login<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active " href="#"><img src="img/icon-nav.svg" alt=""></a>
 
             </div>
 
@@ -157,21 +163,25 @@
 
                     </div>
                 </div>
-                <div class="col-md-2 side-item mt-4">
+                <div class="col-md-2  side-item mt-4 d-none d-md-inline">
                     <div class="teks">
                         <h2>How To Buy</h2>
                     </div>
                     <img src="img/howto.svg" class="mt-4" alt="">
-                    <div class="d-flex justify-content-center mt-4">
-                        <button class="btn btn-lg btn-primary" style="position: fixed;z-index: 99;">Customer
-                            Support</button>
+                    <div class="support-btn mt-5 ">
+                        <p>Further question ?
+                            Call our customer services</p>
+                        <a class="btn btn-md btn-kudewe cta px-sm-3 py-sm-1" href=""><i
+                                class="fas fa-headset mr-2"></i>Costumer Support</a>
                     </div>
                 </div>
             </div>
         </div>
 
     </main>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-tiketku"></nav>
+    <div class="footer d-flex justify-content-center">
+        <p style="font-weight: 500;">Tiketku.com copyright 2020</p>
+    </div>
 
 
     <!-- Optional JavaScript -->
